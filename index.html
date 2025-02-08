@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>HalfTube - Small Digital Video Repository</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="assets/styles.css" rel="stylesheet" type="text/css">
+    <link rel="alternate" type="application/rss+xml" title="HalfTube Recently Added Videos [RSS]" href="assets/rss/global/recently_added.rss">
+</head>
+
+<body onload="javascript:sf();">
+    <table align="center" width="100%" bgcolor="#D5E5F5" cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            <tr>
+                <td><img src="assets/box_login_tl.gif" width="5" height="5"></td>
+                <td><img src="assets/pixel.gif" width="1" height="5"></td>
+                <td><img src="assets/box_login_tr.gif" width="5" height="5"></td>
+            </tr>
+            <tr>
+                <td><img src="assets/pixel.gif" width="5" height="1"></td>
+                <td width="100%">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table cellpadding="2" cellspacing="0" border="0">
+                                        <tbody>
+                                            <tr>
+                                                <td>&nbsp;<a href="index.php" class="bold">Home</a></td>
+                                                <td>&nbsp;|&nbsp;</td>
+                                                <td><a href="my_videos.php">My Videos</a></td>
+                                                <td>&nbsp;|&nbsp;</td>
+                                                <td><a href="my_favorites.php">My Favorites</a></td>
+                                                <td>&nbsp;|&nbsp;</td>
+                                                <td><a href="my_messages.php">My Messages</a></td>
+                                                <td>&nbsp;|&nbsp;</td>
+                                                <td><a href="my_profile.php">My Profile</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td><img src="assets/pixel.gif" width="5" height="1"></td>
+            </tr>
+            <tr>
+                <td><img src="assets/box_login_bl.gif" width="5" height="5"></td>
+                <td><img src="assets/pixel.gif" width="1" height="5"></td>
+                <td><img src="assets/box_login_br.gif" width="5" height="5"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tableLinkBar">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+                <tr valign="top">
+                    <td width="100%" align="right">
+                        <table align="right" cellpadding="2" cellspacing="0" border="0">
+                            <tbody>
+                                <tr>
+                                    <td><a href="signup.php" class="bold">Sign Up</a></td>
+                                    <td>&nbsp;|&nbsp;</td>
+                                    <td><a href="login.php">Log In</a></td>
+                                    <td>&nbsp;|&nbsp;</td>
+                                    <td><a href="help.php">Help</a>&nbsp;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function sf() {
+            document.f.search.focus();
+        }
+    </script>
+
+    <table width="80%" align="center" cellpadding="3" cellspacing="0" border="0">
+        <tbody>
+            <tr>
+                <td align="center">
+                    <img src="assets/logo.gif" width="180" height="71" hspace="12" vspace="12" alt="HalfTube">
+                    <br>
+                    Small Digital Video Repository
+                    <br>
+                    <br>
+                </td>
+            </tr>
+
+            <form name="f" method="GET" action="results.php">
+                <tr>
+                    <td align="center"><input type="text" name="search" size="35" maxlength="128" style="color:#ff3333; font-size: 18px; padding: 3px;"></td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="submit" value="Search Videos"></td>
+                </tr>
+            </form>
+        </tbody>
+    </table>
+
+    <div style="font-size: 16px; font-weight: bold; margin-top: 20px; margin-bottom: 30px; text-align: center;">
+    </div>
+
+
+
+    <table width="80%" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#CCCCCC">
+        <tbody>
+            <tr>
+                <td><img src="assets/box_login_tl.gif" width="5" height="5"></td>
+                <td width="100%"><img src="assets/pixel.gif" width="1" height="5"></td>
+                <td><img src="assets/box_login_tr.gif" width="5" height="5"></td>
+            </tr>
+            <tr>
+                <td><img src="assets/pixel.gif" width="5" height="1"></td>
+                <td>
+                    <div class="moduleTitleBar">
+                        <div class="moduleTitle">
+                            Featured Videos (by the admins)
+                        </div>
+                    </div>
+
+<!-- To add a video, do this:
+<div class="moduleFeatured">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            <tr valign="top">
+                <td width="20%" align="center">
+                    <div class="moduleFeaturedTitle">
+                        <a href="https://files.catbox.moe/yzrj3j.mp4">How to add a Drive video in HTML</a>
+                    </div>
+                    <div class="moduleFeaturedDetails">
+                        Added: Feb 08, 2025<br>by <a href="profile.php?user=anillo65">Memontanik</a>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr>
+
+This will be the code, but host the video either on catbox.moe, or if you are hosting it on your own server with a good amount of storage, host it on there -->
+
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+                <td><img src="assets/pixel.gif" width="5" height="1"></td>
+            </tr>
+            <tr>
+                <td><img src="assets/box_login_bl.gif" width="5" height="5"></td>
+                <td><img src="assets/pixel.gif" width="1" height="5"></td>
+                <td><img src="assets/box_login_br.gif" width="5" height="5"></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h1>How to add your video on HalfTube</h1>
+
+<p>To add your content to the repository, ask me via email, via halftubeapproval@proton.me include your video, or if your video is too large, upload it on YouTube as unlisted. Manual Approval will be done, and the channel name I guess.</p>
+<p>The videos title should be in the Subject line</p>
+<p>Your videos will be on catbox.moe, and the link will direct to your video on catbox. Or on websites I guess lol</p>
+
+
+
+    <br>
+    <table bgcolor="#FFFFFF" align="center" cellpadding="10" border="0">
+        <tbody>
+            <tr>
+                <td align="center" valign="center">
+                    <span class="footer">
+                        <a href="whats_new.php">What's New</a> | 
+                        <a href="about.php">About Us</a> | 
+                        <a href="help.php">Help</a> | 
+                        <a href="terms.php">Terms of Use</a> | 
+                        <a href="privacy.php">Privacy Policy</a> | 
+                        Copyright © 2025 HalfTube, LLC™ | 
+                        <a href="rss/global/recently_added.rss"><img src="assets/rss.gif" width="36" height="14" border="0" style="vertical-align: text-top;"></a></span></td>
+        </tr>
+    </tbody></table>
