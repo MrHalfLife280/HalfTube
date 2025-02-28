@@ -5,4 +5,4 @@ Borrowed from Neocities
 
 Link to the actual site: https://halftube.neocities.org/
 
-(Link to the site, that is in here (do not confuse): https://mrhalflife280.github.io/HalfTube/
+How it looks without the videos and so: https://mrhalflife280.github.io/HalfTube/
